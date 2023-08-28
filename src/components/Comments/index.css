@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 190vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.app-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 60px;
+}
+.app-paragraph {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+.input-name {
+  outline: none;
+  height: 40px;
+  width: 350px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #cbd2d9;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+.input-comment {
+  outline: none;
+  height: 170px;
+  width: 350px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #cbd2d9;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.app-button {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  font-size: 18px;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+.app-picture {
+  width: 500px;
+}
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1050px;
+}
+.container-2 {
+  order: -1;
+}
+.horizontal-line {
+  border: 2px solid #cbd2d9;
+  margin-top: 15px;
+}
+.comments-count-container {
+  background-color: #0284c7;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.comments-count {
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.comments-paragraph {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+.comments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+}
